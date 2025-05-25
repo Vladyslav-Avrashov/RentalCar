@@ -63,7 +63,6 @@ const CarDetails = ({ car }) => {
               }}
               validationSchema={BookingSchema}
               onSubmit={(values, { resetForm }) => {
-                console.log("Booking submitted:", values);
                 toast.success("Your booking has been submitted!");
                 resetForm();
               }}
