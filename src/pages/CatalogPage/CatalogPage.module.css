@@ -1,0 +1,27 @@
+.loadMoreButton {
+  margin: 40px auto;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #3470ff;
+  background: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+  display: block;
+  transition: all 0.3s;
+}
+
+.loadMoreButton:hover {
+  border: 1px solid #0b44cd;
+}
+
+.messageCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 120px;
+  font-weight: 700;
+  text-align: center;
+  color: red;
+}

@@ -1,0 +1,13 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
+  gap: 28px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  max-width: 1200px;
+}
+
+.item {
+  display: flex;
+}

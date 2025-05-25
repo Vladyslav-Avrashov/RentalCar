@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 120px;
+  font-weight: 500;
+  background: #f2f4f7;
+  margin-bottom: 4px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.logoBlack {
+  color: black;
+}
+
+.logoBlue {
+  color: #2563eb;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  font-size: 18px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #0b44cd;
+}
+
+.active {
+  color: #0b44cd;
+}
